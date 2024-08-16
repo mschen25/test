@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一个web小程序</title>
+
+</head>
+<body>
+    <form action="http://127.3.2.1:8080/user/find" method="get">
+        <div> username: <input type="text" name="username" required> </div>
+        <div> password: <input type="password" name="password" required> </div>
+        <div> role: <input type="radio" name="role" value="browser" checked>浏览员
+            <input type="radio" name="role" value="operator">操作员
+            <input type="radio" name="role" value="administrator">管理员
+        </div>
+        <input type="submit" >
+    </form>
+
+</body>
+</html>
